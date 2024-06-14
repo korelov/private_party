@@ -1,9 +1,10 @@
-package org.javaacademy.private_party.dto;
+package org.javaacademy.private_party.entity;
 
 import lombok.Data;
 
 @Data
-public class GuestDto {
+public class Guest {
+    private Integer id;
     private String name;
     private String email;
     private String phone;
